@@ -47,7 +47,7 @@ const TimerBox: React.FC<TimerBoxProps> = ({ onTimerEnd }) => {
   const [timeLeft, setTimeLeft] = useState<number>(120); // Initialize with total duration
   const [percentage, setPercentage] = useState<number>(100); // Start full
   const SOCKET_SERVER_URL =
-    process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || "https://app-0d52412b-7efe-4b4a-9906-630e2719cd62.cleverapps.io/";
+    process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || "https://app-0d52412b-7efe-4b4a-9906-630e2719cd62.cleverapps.io";
 
   useEffect(() => {
     const socket: Socket = io(SOCKET_SERVER_URL);
@@ -114,7 +114,7 @@ export default TimerBox;
 // const TimerBox: React.FC<TimerBoxProps> = ({ onTimerEnd }) => {
 //   const [timeLeft, setTimeLeft] = useState<number>(120);
 //   const SOCKET_SERVER_URL =
-//     process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || "https://app-0d52412b-7efe-4b4a-9906-630e2719cd62.cleverapps.io/";
+//     process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || "https://app-0d52412b-7efe-4b4a-9906-630e2719cd62.cleverapps.io";
 
 //   useEffect(() => {
 //     const socket: Socket = io(SOCKET_SERVER_URL);

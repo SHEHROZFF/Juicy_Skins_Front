@@ -91,7 +91,7 @@ export const useUserContext = () => {
 
 //   // Socket connection
 //   const SOCKET_SERVER_URL =
-//     process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || 'https://app-0d52412b-7efe-4b4a-9906-630e2719cd62.cleverapps.io/';
+//     process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || 'https://app-0d52412b-7efe-4b4a-9906-630e2719cd62.cleverapps.io';
 
 //   useEffect(() => {
 //     const socket: Socket = io(SOCKET_SERVER_URL);

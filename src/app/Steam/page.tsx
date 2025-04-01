@@ -13,7 +13,7 @@ const SteamLogin: React.FC = () => {
     useUserContext();
 
   const SOCKET_SERVER_URL =
-    process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || "https://app-0d52412b-7efe-4b4a-9906-630e2719cd62.cleverapps.io/";
+    process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || "https://app-0d52412b-7efe-4b4a-9906-630e2719cd62.cleverapps.io";
   const router = useRouter();
 
   // Check if JWT exists in localStorage on page load
@@ -145,7 +145,7 @@ const SearchParamsHandler: React.FC<{
 //     useUserContext();
 
 //   const SOCKET_SERVER_URL =
-//     process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || "https://app-0d52412b-7efe-4b4a-9906-630e2719cd62.cleverapps.io/";
+//     process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || "https://app-0d52412b-7efe-4b4a-9906-630e2719cd62.cleverapps.io";
 //   const searchParams = useSearchParams(); // Get the current search parameters
 //   const router = useRouter(); // Get the Next.js router
 
@@ -258,7 +258,7 @@ const SearchParamsHandler: React.FC<{
 
 // const SteamLogin: React.FC = () => {
 //   const { isLoggedIn, setUsername, setAvatar, setSteamId64, setIsLoggedIn } = useUserContext();
-//   const SOCKET_SERVER_URL = process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || "https://app-0d52412b-7efe-4b4a-9906-630e2719cd62.cleverapps.io/";
+//   const SOCKET_SERVER_URL = process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || "https://app-0d52412b-7efe-4b4a-9906-630e2719cd62.cleverapps.io";
 
 //   useEffect(() => {
 //     const fetchUserInfo = async () => {
@@ -433,7 +433,7 @@ const SearchParamsHandler: React.FC<{
 //   const { isLoggedIn } = useUserContext()
 //   const { setUsername, setAvatar, setSteamId64, setIsLoggedIn } = useUserContext();
 //   const SOCKET_SERVER_URL =
-//     process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || "https://app-0d52412b-7efe-4b4a-9906-630e2719cd62.cleverapps.io/";
+//     process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || "https://app-0d52412b-7efe-4b4a-9906-630e2719cd62.cleverapps.io";
 
 //     useEffect(() => {
 //       const fetchUserInfo = async () => {
