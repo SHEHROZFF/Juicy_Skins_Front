@@ -25,7 +25,7 @@
 // import LastFourJackpots from "@/components/LastFourJackpots";
 
 // const SOCKET_SERVER_URL =
-//   process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || "http://localhost:5000";
+//   process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || "https://app-0d52412b-7efe-4b4a-9906-630e2719cd62.cleverapps.io/";
 
 // // Utility function to extract price
 // const extractPrice = (priceString: string): number => {
@@ -382,7 +382,7 @@ import LastFourJackpots from "@/components/LastFourJackpots";
 import SlotMachine from "@/components/SlotMachine";
 
 const SOCKET_SERVER_URL =
-  process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || "http://localhost:5000";
+  process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || "https://app-0d52412b-7efe-4b4a-9906-630e2719cd62.cleverapps.io/";
 
 // Utility function to extract price
 const extractPrice = (priceString: string): number => {

@@ -27,7 +27,7 @@ export default function TradeURLModalComponent({
 }: TradeURLModalComponentProps) {
   const [tradeURL, setTradeURL] = React.useState("");
   const SOCKET_SERVER_URL =
-  process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || "http://localhost:5000";
+  process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || "https://app-0d52412b-7efe-4b4a-9906-630e2719cd62.cleverapps.io/";
 
   const handleModalContentClick = (event: React.MouseEvent) => {
     event.stopPropagation();

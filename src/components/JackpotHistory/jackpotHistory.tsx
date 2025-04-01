@@ -128,7 +128,7 @@ const JackpotCard: React.FC<{
 const JackpotHistory: React.FC = () => {
   const [selectedJackpot, setSelectedJackpot] = useState<Jackpot | null>(null);
   const SOCKET_SERVER_URL =
-    process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || "http://localhost:5000";
+    process.env.NEXT_PUBLIC_SOCKET_SERVER_URL || "https://app-0d52412b-7efe-4b4a-9906-630e2719cd62.cleverapps.io/";
   const LastJackPot = [
     ['H', 'A', 'C', 'K', 'P', 'O', 'T'],
     ['I', 'C', 'K', 'P', 'P', 'O', 'T'],
